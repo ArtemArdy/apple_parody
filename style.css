@@ -93,18 +93,18 @@ body {
 }
 .button_secondary {
   padding: 11px 21px;
-  background-color: aliceblue;
+  background-color: hsl(208, 100%, 97%, 0);
   border-radius: 25px;
   margin-top: 30px;
   font-size: 17px;
-  color: #0071e3;
+  color: rgb(0, 113, 227);
   border: 1px solid #0071e3;
   transition: 200ms;
   cursor: pointer;
 }
 .button_secondary:hover {
   background-color: #0071e3;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .button2 {
   display: flex;
@@ -219,12 +219,12 @@ body {
   background-position: center;
 }
 .block5 {
-  height: 580px;
-  width: 706px;
+  height: 650px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(./Data/5-5.jpg);
+  background: url(./Data/5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -235,7 +235,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(./Data/6-6.jpg);
+  background: url(./Data/6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -257,6 +257,24 @@ body {
 
 .center {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  padding: 17px 0 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 25%;
+}
+.info_txt {
+  font-size: 12px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: rgb(134, 134, 139);
 }
 
 @media (max-width: 1200px) {
