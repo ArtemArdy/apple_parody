@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 .conteiner {
   height: 580px;
@@ -75,28 +76,41 @@ body {
   font-size: 29px;
   text-align: center;
 }
-.button1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.button_primary {
+  padding: 11px 21px;
+  background-color: #0071e3;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 17px;
+  color: white;
+  border: 1px solid #0071e3;
+  transition: 200ms;
+  cursor: pointer;
+}
+.button_primary:hover {
+  filter: brightness(1.2);
+}
+.button_secondary {
+  padding: 11px 21px;
   background-color: aliceblue;
   border-radius: 25px;
-  height: 1cm;
-  width: 3.5cm;
   margin-top: 30px;
+  font-size: 17px;
+  color: #0071e3;
+  border: 1px solid #0071e3;
+  transition: 200ms;
+  cursor: pointer;
 }
-.button1 :hover {
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-  background-color: rgb(0, 75, 141);
+.button_secondary:hover {
+  background-color: #0071e3;
   color: white;
 }
 .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 75, 141);
+  background-color: #0071e3;
   color: aliceblue;
   border-radius: 25px;
   height: 1cm;
@@ -107,18 +121,18 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 25px;
-  background-color: rgb(2, 105, 195);
+  background-color: #0071e3;
 }
 .button3 {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(0, 2, 3, 0);
-  color: rgb(0, 75, 141);
+  color: #0071e3;
   border-radius: 25px;
   border-style: solid;
   border-width: 2px;
-  border-color: rgb(0, 75, 141);
+  border-color: #0071e3;
   height: 1cm;
   width: 3.5cm;
   margin-top: 30px;
@@ -128,13 +142,14 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 25px;
-  background-color: rgb(2, 105, 195);
+  background-color: #0071e3;
   color: white;
 }
 .but2 {
   display: flex;
   align-items: center;
   justify-items: center;
+  gap: 10px;
 }
 .but3 {
   display: flex;
@@ -151,10 +166,8 @@ body {
   display: flex;
   justify-items: center;
   align-items: center;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  gap: 9px;
+  padding: 12px 12px 0 12px;
+  gap: 12px;
 }
 
 .block1 {
@@ -244,4 +257,16 @@ body {
 
 .center {
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .block2 {
+    background-image: url("./Data/6-6.jpg");
+  }
+}
+
+@media (max-width: 800px) {
+  .block2 {
+    background-image: url("./Data/5-5.jpg");
+  }
 }
