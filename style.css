@@ -1,0 +1,247 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background-color: rgb(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 1cm;
+  color: rgba(240, 248, 255, 0.767);
+  list-style: none;
+  z-index: 3;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.photo {
+  height: 580px;
+  background-image: url(./Data/hero_paralympics__f0u9lu6obdiu_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteiner {
+  height: 580px;
+  background-image: url(./Data/hero_iphone_family_a__c7v3mvx3jv42_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Btext {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: aliceblue;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 56px;
+}
+.Btext2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: rgb(1, 1, 1);
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 56px;
+}
+.Mtext {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: aliceblue;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 29px;
+  text-align: center;
+}
+.Mtext2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: rgb(4, 5, 5);
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 29px;
+  text-align: center;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 25px;
+  height: 1cm;
+  width: 3.5cm;
+  margin-top: 30px;
+}
+.button1 :hover {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(0, 75, 141);
+  color: white;
+}
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 75, 141);
+  color: aliceblue;
+  border-radius: 25px;
+  height: 1cm;
+  width: 3.5cm;
+  margin-top: 30px;
+}
+.button2 :hover {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(2, 105, 195);
+}
+.button3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 2, 3, 0);
+  color: rgb(0, 75, 141);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 75, 141);
+  height: 1cm;
+  width: 3.5cm;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.button3 :hover {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(2, 105, 195);
+  color: white;
+}
+.but2 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.but3 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.wtf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.center_img {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 9px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  width: 50%;
+  background: url(./Data/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.block2 {
+  height: 650px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./Data/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bloks {
+  display: flex;
+  align-items: center;
+}
+.block3 {
+  height: 650px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./Data/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.block4 {
+  height: 650px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./Data/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.block5 {
+  height: 580px;
+  width: 706px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./Data/5-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.block6 {
+  height: 650px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./Data/6-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hop {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 430px;
+}
+.popo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+}
+
+.center {
+  width: 100%;
+}
